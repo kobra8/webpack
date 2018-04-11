@@ -1,0 +1,10 @@
+label {
+    user-select: none;
+}
+
+::placeholder {
+   color: red;
+}
+
+
+

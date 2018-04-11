@@ -1,0 +1,15 @@
+{
+    "presets": [
+        ["env", {
+            "debug": true,
+            "useBuiltIns": true,
+            "targets": {
+                "browsers": ["ie >= 11"]
+            }
+        }]
+    ],
+    "plugins": [
+        "transform-runtime",
+        "transform-class-properties"
+    ]
+}

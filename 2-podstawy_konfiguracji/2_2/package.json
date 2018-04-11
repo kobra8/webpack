@@ -1,0 +1,22 @@
+{
+  "name": "default-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch webpack.config.js --exec \"webpack\"",
+    "build": "webpack",
+    "csv": "webpack --module-bind csv=csv-loader"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "csv-loader": "2.1.1",
+    "nodemon": "1.14.12",
+    "to-string-loader": "1.1.5",
+    "webpack": "3.10.0"
+  }
+}

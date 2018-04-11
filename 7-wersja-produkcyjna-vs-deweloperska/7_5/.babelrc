@@ -1,0 +1,19 @@
+{
+    "presets": [
+        ["env", {
+            "debug": true,
+            "useBuiltIns": true,
+            "targets": {
+                "browsers": ["ie >= 11"]
+            },
+            "modules": false
+        }],
+        "react"
+    ],
+    "plugins": [
+        "transform-runtime",
+        "transform-class-properties",
+        "syntax-dynamic-import",
+        "react-hot-loader/babel"
+    ]
+}

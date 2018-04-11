@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./css/style.css"],"names":[],"mappings":"AAAA,KACI,aACA,eAAiB,CAGrB,EACI,oBAAsB","file":"style.css","sourcesContent":["body {\r\n    height: 100vh;\r\n    background: blue;\r\n}\r\n\r\np {\r\n    border: 4px solid red;\r\n}\n\n\n// WEBPACK FOOTER //\n// ./css/style.css"],"sourceRoot":""}

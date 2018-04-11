@@ -1,0 +1,17 @@
+label {
+    -ms-user-select: none;
+        user-select: none;
+}
+
+:-ms-input-placeholder {
+   color: red;
+}
+
+::placeholder {
+   color: red;
+}
+
+
+
+
+/*# sourceMappingURL=style.css.map*/

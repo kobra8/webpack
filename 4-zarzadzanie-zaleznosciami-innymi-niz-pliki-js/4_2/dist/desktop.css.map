@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./css/desktop.css"],"names":[],"mappings":"AAAA,KACI,iBAAmB,CAGvB,IACI,qBACA,SAAW","file":"desktop.css","sourcesContent":["body {\r\n    background: orange;\r\n}\r\n\r\ndiv {\r\n    display: inline-block;\r\n    width: 30%;\r\n}\n\n\n// WEBPACK FOOTER //\n// ./css/desktop.css"],"sourceRoot":""}

@@ -1,0 +1,21 @@
+{
+  "name": "default-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch webpack.config.js --exec \"webpack\"",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "6.26.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.14.12",
+    "webpack": "3.10.0"
+  }
+}

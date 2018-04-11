@@ -1,0 +1,30 @@
+.timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'AlexB', sans-serif;
+
+    .board {
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+
+        .num {
+            border-radius: 10px;
+            background: #444;
+            color: white;
+            height: 80px;
+            line-height: 80px;
+            width: 30%;
+            font-size: 40px;
+            text-align: center;
+        }
+    }
+
+    .logo {
+        width: 360px;
+        height: 56px;
+        background: url('./../images/logo.png'); 
+    }
+}

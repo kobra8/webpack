@@ -1,0 +1,21 @@
+{
+  "name": "2_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch webpack.config.js --exec \"webpack\"",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "3.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.14.12",
+    "webpack": "3.10.0"
+  }
+}
