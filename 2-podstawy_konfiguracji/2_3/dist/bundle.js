@@ -74,7 +74,6 @@ var orders = __webpack_require__(2);
 console.log(people);
 console.log(orders);
 
-console.log('tak');
 
 /***/ }),
 /* 1 */

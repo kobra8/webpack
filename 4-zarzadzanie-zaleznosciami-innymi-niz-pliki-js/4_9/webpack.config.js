@@ -12,6 +12,7 @@ module.exports = {
     },
     watch: true,
     devtool: 'source-map',
+    // Umozliwia pisanie importów bez rozszerzeń -> automatycznie rozpoznaje pliki
     resolve: {
         extensions: ['.js', '.jsx'],
     },

@@ -54,6 +54,7 @@ module.exports = {
 
     plugins: [
         new ExtractTextPlugin('style.css'),
+        //Plugin który dodaje do zmiennej globalnej jquery -> $
         new webpack.ProvidePlugin({
             $: ['jquery'],
             jQuery: ['jquery'],

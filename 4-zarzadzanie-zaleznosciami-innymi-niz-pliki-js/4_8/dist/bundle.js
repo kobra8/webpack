@@ -67,22 +67,13 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var people = __webpack_require__(1);
-var orders = __webpack_require__(2);
+"use strict";
 
 
-console.log(people);
-console.log(orders);
-
+__webpack_require__(1);
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 2 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin

@@ -68,6 +68,8 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 var csv = __webpack_require__(1);
+//Konfiguracja loadrea inline:
+//var csv = require('csv-loader!./../data/people.csv');
 
 console.log(csv);
 
@@ -89,7 +91,7 @@ console.log(csv);
 /* 2 */
 /***/ (function(module, exports) {
 
-module.exports = [{"name":"Jan"," surname":" Kowalski"," date":" 1967-01-02"},{"name":"Michał"," surname":" \"Adamczyk\""," date":" \"1989-12-19\""},{"name":"Agnieszka"," surname":" \"Nowak\""," date":" \"1978-09-01\""}]
+module.exports = [{"name":"Jan"," surname":"Kowalski"," date":"1967-01-02"},{"name":"Michał"," surname":"Adamczyk"," date":"1989-12-19"},{"name":"Agnieszka"," surname":"Nowak"," date":"1978-09-01"}]
 
 /***/ })
 /******/ ]);
