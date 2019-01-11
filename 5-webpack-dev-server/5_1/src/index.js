@@ -5,9 +5,9 @@ import ReactDOM from 'react-dom';
 
 import App from './components/App';
 
-const render = (Comp) => {
+const render = (ComponentName) => {
   ReactDOM.render(
-    <Comp />,
+    <ComponentName />,
     document.getElementById('app'),
   )
 }
