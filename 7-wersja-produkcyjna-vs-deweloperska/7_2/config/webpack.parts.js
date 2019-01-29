@@ -183,7 +183,7 @@ exports.PurifyCSSPlugin = ({ paths, purifyOptions}) => {
     }
 }
 
-exprots.CompressionPlugin = () => {
+exports.CompressionPlugin = () => {
 
     return {
         plugins: [

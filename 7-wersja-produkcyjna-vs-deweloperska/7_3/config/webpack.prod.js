@@ -35,7 +35,7 @@ const prod = merge([
         pluginOptions: {
             filename: 'index.html',
             template: path.resolve(__dirname, './../src/index.html'),
-            nimify: {},
+            minify: {},
         }
     }),
     parts.CleanPlugin({

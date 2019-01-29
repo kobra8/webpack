@@ -43,6 +43,7 @@ class App extends React.Component {
                     m={ 1 } 
                     s={ 1 } 
                 />
+                <a href="https://google.pl">GOOGLE</a>
             </div>
         )
     }
